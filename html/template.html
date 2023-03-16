@@ -1,0 +1,48 @@
+<html>
+    <head>
+        <title>Jordan Day</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <style>
+            html,body {
+                background-color: lightpink;
+                color:black;
+                cursor: url("/uwu-cursor.png"),auto;
+
+            }
+            a:hover {
+                cursor: url("/uwu-cursor-angry.png"),auto;
+            }
+            #puter {
+                display:block;
+                position: absolute;
+                top: 0;
+                right: 0;
+                width: max(10vw, 100px);
+                height: max(10vw, 100px);
+            }
+            #main {
+                width: 95%;
+                max-width: 600px;
+                margin-left: auto;
+                margin-right: auto;
+            }
+            a {
+                color: black;
+            }
+            a:visited {
+                color: black;
+            }
+            @media screen and (max-width: 700px) {
+                #header {
+                  max-width: calc(100% - max(10vw, 100px));
+                }
+            }
+        </style>
+    </head>
+    <body>
+        <img id="puter" src="/compuwuter.png" alt="a silly little computer">
+        <div id="main">
+            content_here
+        </div>
+    </body>
+</html>
